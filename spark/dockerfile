@@ -1,0 +1,10 @@
+FROM bitnami/spark:3.1.2
+
+# Set the necessary environment variables
+ENV SPARK_MASTER_URL spark://spark-master:7077
+ENV SPARK_HOME /opt/bitnami/spark
+
+# Copy your submit script to the image
+COPY submit.py /opt/bitnami/spark/submit.py
+
+CMD ["/run.sh"]

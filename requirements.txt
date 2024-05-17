@@ -1,0 +1,9 @@
+apache-airflow==2.5.0
+psycopg2-binary==2.9.3
+apache-airflow-providers-postgres==2.4.0
+pyspark==3.1.2
+fernet
+bs4
+apache-airflow-providers-apache-spark
+pandas
+sqlalchemy
