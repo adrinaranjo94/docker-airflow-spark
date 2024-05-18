@@ -17,7 +17,7 @@ services:
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
-      AIRFLOW__CORE__FERNET_KEY: 'he48V0O38eUZ0AJz80mL4hQx7e_5jzHvFoGp-f1PvbE='
+      AIRFLOW__CORE__FERNET_KEY: 'FERNET_KEY_TOKEN'
       AIRFLOW__CORE__LOAD_EXAMPLES: 'False'
     ports:
       - "8082:8080"
